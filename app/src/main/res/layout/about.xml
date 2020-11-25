@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/black">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profle"
+        android:layout_width="189dp"
+        android:layout_height="198dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/foto"/>
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profle"
+        android:layout_marginStart="-3dp"
+        android:gravity="center"
+        android:text="Arifin Nurhidayah"
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:gravity="center"
+        android:text="arifin.nurhidayah1933@gmail.com"
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray"/>
+
+
+</RelativeLayout>

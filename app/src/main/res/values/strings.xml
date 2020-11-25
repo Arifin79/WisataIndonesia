@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wisata </string>
+    <string name="wisata_name">Nama Wisata</string>
+    <string name="detail">Detail</string>
+    <string name="informasi">informasi</string>
+    <string name="informasi_detail">informasi detail</string>
+</resources>
